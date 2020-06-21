@@ -1,0 +1,101 @@
+    1  ls
+    2  ssh-keygen -t rsa cat ~/id_rsa.pub>authorized_keys
+    3  	Ssh-keygen -t rsa
+    4  cat ~/id_rsa.pub>authorized_keys
+    5  Ssh-keygen -t rsa
+    6  cat ~/id_rsa.pub>authorized_keys
+    7  ssh-keygen -t rsa
+    8  cat ~/id_rsa.pub>authorized_keys
+    9  chmod 400 devops_aws.pem
+   10  ssh -i "devops_aws.pem" ubuntu@ec2-52-66-153-67.ap-south-1.compute.amazonaws.com
+   11  vi /etc/ssh/
+   12  cd etc/
+   13  ls
+   14  cat abc.pub
+   15  vi /etc/ssh/ssh_config
+   16  vi /etc/ssh/sshd_config
+   17  ls
+   18  service sshd restart
+   19  ssh-keygen -t rsa
+   20  ls
+   21  cat key1.pub
+   22  ls
+   23  clear
+   24  ls
+   25  rm abc
+   26  rm abc.pub 
+   27  rm authorized_keys 
+   28  rm key1
+   29  rm key1.pub 
+   30  ls
+   31  clear
+   32  ssh-keygen -t rsa
+   33  ls
+   34  ssh-keygen -t rsa
+   35  ls
+   36  clear
+   37  ssh-keygen -t rsa
+   38  ls
+   39  ls
+   40  clear
+   41  vi gcloud.pub
+   42  cat gcloud.pub 
+   43  rm gcloud.pub 
+   44  echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDze3wBnCg0A5W0QjTjfSmDYU2PKQGPHbNv5Uo/F4ML+Rr9aXbQWcvMETHEcAk0wPu+rNlEQTAoa
+   45  FrVnVMHTEA6omsFyEdJqujziNwYmTwLNExfOtRtwlSsHRG5ZNTA/G4hajwTkpjBkk+Ks9vdCGVJjzSSY12jgVUBOItgt/jN3Df0R9q9ew3lhCHobK
+   46  NEdADm1cGcKUDpW5pxBFsVnk6ooa6N7heJvd6EFS98RrHmNjIP4tQIzPuYOTn4ywBNUObW/FVX1C/FA6ZiSdndUiVMDsrE8nanaxl5su7wextcUjC
+   47  uO60JyzorgAiJJRrOZNk3xh1noBpLwbIzqowZyzvzsFanQMRegjq44ve9asWl3DDLErJe0GjXWhD6PM1mib65wGrT36s75kikIqzH4rDiV8L+0vmL
+   48  clear
+   49  vi gcloud.pub
+   50  ls
+   51  cat gcloud.pub 
+   52  ssh -i root@35.224.108.132
+   53  ssh --help
+   54  cat ~/id_rsa.pub>authorized_keys
+   55  cat ~/id_rsa.pub>gcloud
+   56  ls
+   57  cat ~/id_rsa.pub>gcloud.pub
+   58  ls
+   59  vi ~/.ssh/config
+   60  clear
+   61  ls
+   62  vi ~/.ssh/config
+   63  ls
+   64  Ssh  devops
+   65  ssh  devops
+   66  vi ~/.ssh/config
+   67  ssh  devops
+   68  vi ~/.ssh/config
+   69  ssh  devops
+   70  cp gcloud.pub gcloud.pem
+   71  ls
+   72  vi ~/.ssh/config
+   73  ls
+   74  ssh  devops
+   75  clear
+   76  ls
+   77  rm gcloud
+   78  rm gcloud.p
+   79  rm gcloud.pem 
+   80  rm gcloud.pub 
+   81  ls
+   82  vi gcloud.pem
+   83  ls
+   84  ssh devops
+   85  clear
+   86  cd .ssh/
+   87  ls
+   88  vi id_rsa
+   89  chmod 400 id_rsa 
+   90  ssh root@35.224.108.132
+   91  ls
+   92  history>aws.txt
+   93  ls
+   94  vi aws.txt 
+   95  clear
+   96  ls
+   97  ls -a
+   98  exit
+   99  ls
+  100  history
+  101  history > abc.txt
