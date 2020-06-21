@@ -1,0 +1,617 @@
+    1  ls
+    2  apt update
+    3  apt upgrade
+    4  ls
+    5  mkdir projects
+    6  ls
+    7  cd projects/
+    8  clear
+    9  vi replace.sh
+   10  cat replace.sh 
+   11  vi mno.txt
+   12  ./replace.sh
+   13  chmod 770 replace.sh 
+   14  ls
+   15  clear
+   16  ./replace.sh
+   17  docker 
+   18  version
+   19  ver
+   20  man version
+   21  docker
+   22  apt install docker.io
+   23  docker ps
+   24  clear
+   25  docker image pull nginx
+   26  docker container run -itdP nginx
+   27  docker ps
+   28  ping 35.224.108.132
+   29  docker image pull nishugoyal2013/flag
+   30  docker container run -itdP nishugoyal2013/flag
+   31  docker ps
+   32  docker images
+   33  docker-compose
+   34  apt install docker-compose
+   35  docker swarm init
+   36  docker node ls
+   37  whoami
+   38  which
+   39  ls
+   40  cd ..
+   41  ls
+   42  mkdir jenkins
+   43  vi docker-compose.yml
+   44  cat docker-compose.yml 
+   45  docker stack up .
+   46  docker stack up --compose-file docker-compose.yml 
+   47  docker stack deploy --compose-file docker-compose.yml 
+   48  docker stack deploy --compose-file docker-compose.yml
+   49  docker stack --help
+   50  docker stack deploy --help
+   51  docker stack deploy -
+   52  docker stack deploy --compose-file docker-compose.yml
+   53  docker stack deploy --compose-file docker-compose.yml stack
+   54  docker service
+   55  docker service ls
+   56  docker service --help
+   57  docker service logs 55
+   58  cd ..
+   59  ls
+   60  cd /
+   61  ls
+   62  cd ~
+   63  ls
+   64  cd jenkins/
+   65  mv ~/docker-compose.yml .
+   66  ls
+   67  docker stack deploy --compose-file docker-compose.yml stack
+   68  docker service ls
+   69  docker service rm 55
+   70  docker service ls
+   71  docker stack deploy --compose-file docker-compose.yml stack
+   72  docker service ls
+   73  docker service logs son
+   74  docker service ls
+   75  docker node ls
+   76  docker service ls
+   77  docker service logs son
+   78  ls
+   79  cat docker-compose.yml 
+   80  docker ls
+   81  docker ps
+   82  docker service ls 
+   83  docker servie rm son
+   84  docker service rm son
+   85  docker container rm 30 aa
+   86  docker container rm 30 aa -f
+   87  docker ps
+   88  docker service ls
+   89  cd ..
+   90  mv jenkins/docker-compose.yml .
+   91  ls
+   92  clear
+   93  docker stack deploy --compose-file docker-compose.yml stack
+   94  docker service ls
+   95  docker service logs x1
+   96  ls
+   97  chmod 777 jenkins/
+   98  ls
+   99  docker service rm x1
+  100  docker stack deploy --compose-file docker-compose.yml stack
+  101  docker service ls
+  102  cat /var/jenkins_home/secrets/initialAdminPassword
+  103  cd /var/jenkins_home/secrets/initialAdminPassword
+  104  docker ps
+  105  docker exec -it 79 bash
+  106  docker service ls
+  107  docker service rm 5q
+  108  docker ls
+  109  docker ps
+  110  clear
+  111  ls
+  112  ls -l
+  113  docker stack deploy --compose-file docker-compose.yml stack
+  114  docker service ls
+  115  docker ps
+  116  docker container run -itdP nginx
+  117  docker ps
+  118  ping 35.224.108.132
+  119  docker images
+  120  docker ps
+  121  docker exec -it 6f bash
+  122  docker service ls
+  123  docker service rm kk
+  124  docker service ls
+  125  docker ps
+  126  docker rm a6
+  127  docker rm a6 -f
+  128  ls
+  129  cd jenkins/
+  130  ls
+  131  rm -rvf *
+  132  ls
+  133  cd ..
+  134  docker stack deploy --compose-file docker-compose.yml stack
+  135  docker service ls
+  136  dokcer ps
+  137  docker os
+  138  docker ps
+  139  dokcer exec -it 17 bash
+  140  docker exec -it 17 bash
+  141  docker service ls
+  142  ls
+  143  clear
+  144  ls
+  145  ls -l
+  146  ls
+  147  docker container ls
+  148  ls
+  149  cd ..
+  150  ls
+  151  cd ~
+  152  ls
+  153  cd projects/
+  154  ls
+  155  ./replace.sh 
+  156  ls
+  157  cat mno.txt 
+  158  cd ..
+  159  ls
+  160  ls -l
+  161  pwd
+  162  ls
+  163  cd projects/
+  164  ls
+  165  pwd
+  166  cat replace.sh 
+  167  ./replace.sh 
+  168  man sed
+  169  ls
+  170  cd jenkins/
+  171  ls
+  172  clear
+  173  ls
+  174  ping 34.68.93.175
+  175  cd ..
+  176  cd jenkins/
+  177  docker pull maven:latest
+  178  ls
+  179  ls -a
+  180  docker images
+  181  rm maven
+  182  rm e5
+  183  docker image rm maven
+  184  ls
+  185  cd ..
+  186  ls
+  187  cd projects/
+  188  ls
+  189  ./replace.sh 
+  190  docker run -d -p 24224:24224 -p 24224:24224/udp -v /data:/fluentd/log fluent/fluentd:v1.3-debian-1
+  191  docker ps
+  192  docker images
+  193  docker run -itdP e9
+  194  docker ps
+  195  docker stack deploy e9 stack
+  196  clear
+  197  ls
+  198  docker image rm e9 -f
+  199  docker ps
+  200  docker rm 621
+  201  docker rm 621 -f
+  202  docker image rm e9
+  203  docker image rm e9 -f
+  204  docker images
+  205  clear
+  206  ls
+  207  cd ..
+  208  ls
+  209  cd projects/
+  210  ls
+  211  sed "s/is/are/g" mno.txt
+  212  sed -c "s/is/are/g" mno.txt
+  213  sed -E "s/is/are/g" mno.txt
+  214  sed -e "s/is/are/g" mno.txt
+  215  sed -s "s/is/are/g" mno.txt
+  216  sed -u "s/is/are/g" mno.txt
+  217  sed -r "s/is/are/g" mno.txt
+  218  man sed
+  219  ls
+  220  mvn install
+  221  docker images
+  222  docker ps
+  223  clear
+  224  ls
+  225  docker images
+  226  docker ps
+  227  docker service ls
+  228  apt install maven
+  229  ls
+  230  cd jenkins/
+  231  apt install maven
+  232  docker images
+  233  mvn install
+  234  ls
+  235  cd..
+  236  cd ..
+  237  exit
+  238  ls
+  239  mkdir ng
+  240  cd ng/
+  241  mkdir jenkins
+  242  chmod 
+  243  chmod jenkins
+  244  ls -l
+  245  chmod 777 jenkins/
+  246  ls
+  247  cd ..
+  248  ls
+  249  cp docker-compose.yml /ng/
+  250  cp docker-compose.yml ./ng/
+  251  ls
+  252  cd ng/
+  253  ls
+  254  docker-compose up
+  255  ls
+  256  cd jenkins/
+  257  ls
+  258  docker ps
+  259  docker ps -a
+  260  docker rm 77 fb 17
+  261  docker ps
+  262  docker ps -a
+  263  cd ..
+  264  ls
+  265  cd jenkins/
+  266  ls
+  267  rm -rvf *
+  268  ls
+  269  cd ..
+  270  ls
+  271  docker stack deploy -c docker-compose.yml jenkins
+  272  cd jenkins/
+  273  ls
+  274  docker service ls
+  275  cd secrets/
+  276  ls
+  277  cat initialAdminPassword 
+  278  cd ..
+  279  echo raja > a.txt
+  280  ls
+  281  cat a.txt 
+  282  ls
+  283  rm a.txt 
+  284  ls
+  285  if [ $Calculate_via == "Addition"]; then echo $Value_1 + $Value_2; else if [ $Calculate_via  == "Subtraction"]; then echo $Value_1 - $Value_2; fi; fi
+  286  x=9
+  287  y=8
+  288  vi re1.sh
+  289  ./re1.sh
+  290  chmod 770 re1.sh 
+  291  ./re1.sh
+  292  vi re1.sh 
+  293  ./re1.sh
+  294  echo $?
+  295  vi re1.sh 
+  296  ./re1.sh
+  297  cat re1.sh 
+  298  vi re1.sh 
+  299  ./re1.sh
+  300  cat re1.sh 
+  301  vi re1.sh 
+  302  ./re1.sh
+  303  vi re1.sh 
+  304  ./re1.sh
+  305  vi re1.sh 
+  306  ./re1.sh
+  307  vi re1.sh 
+  308  ./re1.sh
+  309  ls
+  310  gitlab
+  311  push
+  312  git push
+  313  git --help
+  314  ls
+  315  gitlab
+  316  apt update
+  317  apt install gitlab
+  318  git version
+  319  clear
+  320  git login
+  321  git --help
+  322  git push-- help
+  323  git push --help
+  324  ls
+  325  git push -a
+  326  mkdir rgandhi715
+  327  ls
+  328  cd projects/
+  329  ls
+  330  cd ..
+  331  ls
+  332  cd rgandhi715/
+  333  ls
+  334  git clone https://github.com/coolgourav147/hello-world-react.git
+  335  git clone https://github.com/coolgourav147/HelloWorld-Java-Springboot.git
+  336  ls
+  337  git push -a
+  338  cd ..
+  339  git push -a
+  340  git-add -a
+  341  git add -a
+  342  ls
+  343  cd rgandhi715/
+  344  ls
+  345  git add https://github.com/nishugoyal2013/HelloWorld-Java-Springboot.git
+  346  git add hello-world-react/ https://github.com/nishugoyal2013/HelloWorld-Java-Springboot.git
+  347  cd HelloWorld-Java-Springboot/
+  348  git add
+  349  git add .
+  350  ls
+  351  git remote add origin https://github.com/nishugoyal2013/HelloWorld-Java-Springboot.gitls
+  352  git status
+  353  git push
+  354  ls
+  355  git stash
+  356  git status
+  357  tree
+  358  apt install tree
+  359  tree
+  360  git commit -m
+  361  git commit -ma
+  362  ls
+  363  cd ..
+  364  git commit -m HelloWorld-Java-Springboot/
+  365  git add HelloWorld-Java-Springboot/
+  366  cd HelloWorld-Java-Springboot/
+  367  ls
+  368  git add .
+  369  git status
+  370  git stahs
+  371  git stash
+  372  git push origin master
+  373  cd ..
+  374  ls
+  375  mkdir new
+  376  cp hello-world-react/ new/
+  377  cp -r hello-world-react/ new/
+  378  ls
+  379  cd new/
+  380  ls
+  381  git add .
+  382  tree
+  383  cd ..
+  384  ls
+  385  git add docker-compose.yml 
+  386  ls
+  387  cleare
+  388  clear
+  389  history > abc.txt
+  390  ls
+  391  cat abc.txt 
+  392  clear
+  393  git add abc.txt 
+  394  cd ..
+  395  ls
+  396  cd ~
+  397  ls
+  398  mv abc.txt rgandhi715/HelloWorld-Java-Springboot/
+  399  cd rgandhi715/HelloWorld-Java-Springboot/
+  400  ls
+  401  git add abc.txt 
+  402  git status
+  403  git commit -m "history added"
+  404  git puch origin master 
+  405  git push origin master 
+  406  cd ..
+  407  mkdir open
+  408  ls
+  409  cd open/
+  410  vi rg.txt
+  411  ls
+  412  git add rg.txt 
+  413  git push origin master 
+  414  git add --all
+  415  git clone https://github.com/nishugoyal2013/Open.git
+  416  ls
+  417  git add rg.txt 
+  418  ls
+  419  cd ..
+  420  ls
+  421  cd /
+  422  cd 
+  423  ls
+  424  cd jenkins/
+  425  ls
+  426  cd jobs/
+  427  ls
+  428  cat ng
+  429  cd ng/
+  430  ls
+  431  cd..
+  432  cd ..
+  433  cd .
+  434  cd ..
+  435  ls
+  436  cd ng/
+  437  ls
+  438  cd jenkins/
+  439  ls
+  440  docker service ls
+  441  ls
+  442  exit
+  443  docker ps
+  444  clear
+  445  docker ps
+  446  mvn version
+  447  clear
+  448  docke rps
+  449  docker ps
+  450  docker exec -it 732 bash
+  451  which mvn
+  452  cd 
+  453  cd ..
+  454  ls
+  455  cd usr/bin/mvn
+  456  cd usr/bin/mvn/
+  457  cd usr//share/
+  458  cd ..
+  459  cd bin/
+  460  ls
+  461  docker $PATH=$PATH:$[pwd]
+  462  $PATH=$PATH:$[pwd]
+  463  $PATH=$PATH:$(pwd)
+  464  cd ..
+  465  cd ~
+  466  ls
+  467  docker exec -it 732 bash
+  468  https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
+  469  wget https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
+  470  ls
+  471  unzip apache-maven-3.6.3-bin.zip 
+  472  apt install unzip
+  473  unzip apache-maven-3.6.3-bin.zip 
+  474  ls
+  475  rm apache-maven-3.6.3-bin.zip 
+  476  ls
+  477  cd jenkins/
+  478  ls
+  479  cd ..
+  480  ls
+  481  cd ~
+  482  ls
+  483  rm -r apache-maven-3.6.3/
+  484  ls
+  485  docker ps
+  486  docker exec -it 732 bash
+  487  ls
+  488  docker ps
+  489  docker exec -it 17b bash
+  490  docker ps
+  491  docker exec-it 732 bash
+  492  docker exec -it 732 bash
+  493  ls
+  494  docker ps
+  495  docker exec -it 732 bash
+  496  ls
+  497  whoami
+  498  Ssh-keygen -t rsa
+  499  cat ~/id_rsa.pub>authorized_keys
+  500  Ssh-keygen -t rsa
+  501  Ssh-keygen -t rsa cat ~/id_rsa.pub>authorized_keys
+  502  ssh-keygen -t rsa cat ~/id_rsa.pub>authorized_keys
+  503  chmod 400 devops_aws.pem
+  504  ssh @root@ec2-52-66-153-67.ap-south-1.compute.amazonaws.com
+  505  vi abc.pem
+  506  ls
+  507  Ssh-keygen -t rsa
+  508  ssh-keygen -t rsa
+  509  ls
+  510  chmod 400 abc.pem
+  511  ls
+  512  ssh root@52.66.153.67
+  513  root@ip-172-31-10-96
+  514  ssh root@ip-172-31-10-96
+  515  ssh root@ip-172.31.10.96
+  516  ssh root@172.31.10.96
+  517  ssh root@52.66.153.67
+  518  vi newk
+  519  ssh root@52.66.153.67
+  520  ls
+  521  exit
+  522  ls
+  523  clear
+  524  ssh-keygen -t rsa
+  525  ls
+  526  cat gcloud
+  527  ls
+  528  clear
+  529  ls
+  530  rm gcloud
+  531  rm gcloud.pub 
+  532  rm abc.pem 
+  533  rm key
+  534  rm key.pub 
+  535  ls
+  536  clear
+  537  ls
+  538  cat authorized_keys 
+  539  cd authorized_keys/
+  540  ls -l
+  541  cat newk 
+  542  rm newk 
+  543  ls
+  544  rm authorized_keys 
+  545  ls
+  546  clear
+  547  ls
+  548  cd projects/
+  549  ls
+  550  git clone https://github.com/coolgourav147/HelloWorld-Java-Springboot.git
+  551  ls
+  552  git clone https://github.com/coolgourav147/hello-world-react.git
+  553  ls
+  554  clear
+  555  ls
+  556  cd HelloWorld-Java-Springboot/
+  557  ls
+  558  ls -a
+  559  ssh-keygen -t --help
+  560  ssh-keygen -t rsa
+  561  ls
+  562  cd ..
+  563  ls
+  564  cd projects/
+  565  cd HelloWorld-Java-Springboot/
+  566  ls
+  567  mv gcloud ./
+  568  mv gcloud ./~
+  569  ls
+  570  mv gcloud.pub ./~
+  571  ls
+  572  cd ..
+  573  ls
+  574  cd ..
+  575  ls
+  576  grep gcloud
+  577  cd home/
+  578  ls
+  579  cd r_gandhi715/
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd ubuntu/
+  584  ls
+  585  cd ..
+  586  ls
+  587  cd ..
+  588  ls
+  589  cd ~
+  590  ls
+  591  ssh-keygen -t rsa
+  592  ls
+  593  ssh -i root@52.66.153.67
+  594  cat gcloud.pub 
+  595  clear
+  596  ls
+  597  ssh-keygen -t rsa
+  598  clear
+  599  cd /root/.ssh/
+  600  ls
+  601  cat id_rsa.pub >>authorized_keys 
+  602  vi /etc/ssh/ssh_config 
+  603  cd /etc/ss
+  604  ls
+  605  cd /etc/ssh
+  606  ls
+  607  vi sshd_config 
+  608  service sshd restart
+  609  clear
+  610  ssh root@127.0.0.1
+  611  clear
+  612  ls
+  613  cd 
+  614  cat .ssh/id_rsa
+  615  clear
+  616  ls
+  617  history>gc.txt
